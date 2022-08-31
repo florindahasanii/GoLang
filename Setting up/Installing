@@ -1,0 +1,19 @@
+1.First you need to remove any folders or directories that you may have from past installations, to do that you push this command in terminal: 
+            rm -rf /usr/local/go
+This need to be run signed in as root.
+
+2.Then you need to go and dowload the .tar.gz file in this link: 
+            https://go.dev/doc/install
+3.You extract the .tar file in the usr/local direcotory so that you create a fresh Go tree:
+            tar -C /usr/local -xzf go1.19.linux-amd64.tar.gz
+If you didn't download the file in the usr/local folder you have to copy it to the usr/local folder, first you navigate to the directory that you have .tar file
+and copy it to the /usr/local directory with this command as root: 
+            cp go1.19.linux-amd64.tar.gz /usr/local
+And then you run: 
+            tar -xzf go1.19.linux-amd64.tar.gz
+which will create the go folder.
+4.To check if you installed it you input:
+            go version
+            in terminal/bash 
+If it is installed successfully you'll see:
+             go version go1.19 linux/amd64
