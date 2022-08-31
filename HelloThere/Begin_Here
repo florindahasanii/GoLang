@@ -1,0 +1,5 @@
+First go to the folder/directory where you want to save your examples or your code.
+There run: go mod init example/hello // you can name it differently just for example
+After doing that a file go.mod will be created. Write your first program HelloThere.go
+to run it you type in: go run HelloThere.go  //or the name of your file
+The output: Hello there!
