@@ -1,0 +1,17 @@
+1.Where does a Go program start?
+A program starts at the main function in the main package.
+
+2.What does the fmt package provide?
+The fmt package provides functions for formatted input and output.
+
+3.Where must opening braces { be placed to avoid syntax errors?
+An opening brace must be on the same line as func, rather than on an separate line.
+
+For example:
+      Correct:
+     func main(){
+                }
+      Wrong: 
+     func main()
+              {
+              }
